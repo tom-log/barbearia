@@ -1,0 +1,164 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #C78C19;
+  text-decoration: underline;
+}
+
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px; 
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: #C78C19;
+}
+
+.produtos li:active{
+  border-color: #088C19;
+}
+
+.produtos li:hover h2{
+  font-size: 32px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0;
+}
+
+.copy{
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 17px 0;
+}
+
+/* Começando o formulário */
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding:  10px 25px;
+  width: 30%;
+}
+
+.checkbox {
+  display: block;
+  margin: 25px 0px 0 0;
+  font-weight: bold;
+}
+
+/* Botão */
+.btn-submit {
+  display: block;
+  margin: 10px 0px 10px 100px;
+  padding: 10px 10px;
+  width: 25%;
+  background: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 500ms all;
+}
+
+.btn-submit:hover {
+  background: #C78C19;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
+table {
+  margin: 50px 0 40px 125px;
+}
+
+thead {
+  background: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
